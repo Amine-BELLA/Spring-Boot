@@ -39,5 +39,6 @@ public class StudentController {
             @RequestParam String email
     ) {
         studentService.updateStudent(id,name,email);
+        // this comment made by amine normally
     }
 }
